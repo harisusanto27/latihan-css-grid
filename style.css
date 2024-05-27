@@ -52,6 +52,7 @@ body {
   place-content: center;
   text-align: center;
   cursor: pointer;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .feature-1 {
@@ -174,6 +175,7 @@ body {
   border: 1px solid #aaa;
   border-radius: 3px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
 }
 
 .service .icon {
@@ -188,6 +190,11 @@ body {
   font-weight: 200;
   letter-spacing: 1px;
   font-size: 0.8em;
+}
+
+.service img {
+  width: 2em;
+  height: 2em;
 }
 
 /* gallery */
@@ -207,6 +214,7 @@ body {
 .gallery img {
   border: 1px solid #333;
   border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* responsive breakpoint */
